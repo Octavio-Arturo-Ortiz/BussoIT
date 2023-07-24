@@ -23,24 +23,23 @@
         </div>
     </header>
 
-    <main>
-
+    <main class="text-white main-content">
     <!--First Part Of Content-->
         <!--Quienes Somos-->
-        <div class="d-flex justify-content-center flex-column text-center m-5">
-            <h1>¿Quiénes somos?</h1>
+        <div class="d-flex justify-content-center flex-column text-justify m-5">
+            <h1 class="text-center">¿Quiénes somos?</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque sed commodi expedita excepturi veritatis doloribus nemo tempore, odit maxime ea fugiat doloremque itaque voluptas dolor atque, ipsa illo, culpa consectetur Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, praesentium dolore! Corrupti ipsum nisi voluptate inventore est! Vel voluptate suscipit fuga officia perspiciatis nesciunt ipsam quis deleniti sunt, incidunt aliquid</p>
         </div>
 
         <!--Nuestros servicios-->
-        <div class="d-flex justify-content-center flex-column text-center m-5">
-            <h2>Nuestros Servicios</h2>
+        <div class="d-flex justify-content-center flex-column text-justify m-5">
+            <h2 class="text-center">Nuestros Servicios</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque sed commodi expedita excepturi veritatis doloribus nemo tempore, odit maxime ea fugiat doloremque itaque voluptas dolor atque, ipsa illo, culpa consectetur Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, praesentium dolore! Corrupti ipsum nisi voluptate inventore est! Vel voluptate suscipit fuga officia perspiciatis nesciunt ipsam quis deleniti sunt, incidunt aliquid</p>
         </div>
 
         <!--Proyectos Realizados-->
-        <div class="d-flex justify-content-center flex-column text-center m-5">
-            <h2>Proyectos realizados</h2>
+        <div class="d-flex justify-content-center flex-column text-justify m-5">
+            <h2 class="text-center">Proyectos realizados</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque sed commodi expedita excepturi veritatis doloribus nemo tempore, odit maxime ea fugiat doloremque itaque voluptas dolor atque, ipsa illo, culpa consectetur Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, praesentium dolore! Corrupti ipsum nisi voluptate inventore est! Vel voluptate suscipit fuga officia perspiciatis nesciunt ipsam quis deleniti sunt, incidunt aliquid</p>
         </div>
 
@@ -48,48 +47,58 @@
             <img width="30%" src="/IMG/CIDELOGO.png" alt="Cidein.png">
         </div>
 
-        <div class="d-flex justify-content-center flex-column text-center m-5">
-            <h2>Acerca de nosotros</h2>
+        <div class="d-flex justify-content-center flex-column text-justify m-5">
+            <h2 class="text-center">Acerca de nosotros</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque sed commodi expedita excepturi veritatis doloribus nemo tempore, odit maxime ea fugiat doloremque itaque voluptas dolor atque, ipsa illo, culpa consectetur Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, praesentium dolore! Corrupti ipsum nisi voluptate inventore est! Vel voluptate suscipit fuga officia perspiciatis nesciunt ipsam quis deleniti sunt, incidunt aliquid</p>
         </div>
     </main>
 
     <footer>
-        <div class="d-flex justify-content-center flex-column text-center m-5">
+        <div id="formulario-contacto" class="d-flex justify-content-center flex-column text-center m-5 text-white">
             <h3>¿Tienes una idea en mente? Contactanos!!</h3>
             <form action="" method="post">
-
-                <div class="form-row d-flex justify-content-center">
-                    <div class="col text-s ms-5 me-3">
+                    <div class="col text-s mt-2">
                         <label for="name">Nombre:</label>
                         <input class="form-control" type="text" id="name" name="nombreContacto" />
                     </div>
-                    <div class="col text-s ms-3 me-5">
+                    <div class="col text-s mt-2">
                         <label for="name">Teléfono:</label>
                         <input class="form-control" type="number" id="telefono" name="telefonoContacto" />
                     </div>
-                </div>
-                <div class="col text-s ms-5 me-5 mt-2">
+                
+                <div class="col text-s mt-2">
                     <label for="mail">Correo electrónico:</label>
                     <input class="form-control" type="email" id="mail" name="emailContacto" />
                 </div>
-                <div class="col text-s ms-5 me-5 mt-2">
+                <div class="col text-s mt-2">
                     <label for="msg">Mensaje:</label>
                     <textarea class="form-control" id="msg" name="mensajeContacto"></textarea>
                 </div>
-                <div class="col text-s d-flex justify-content-center ms-5 me-5 mt-3">
+                <div class="col text-s d-flex justify-content-center mt-3">
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
             </form>
         </div>
 
+        <!--Burbujas-->
+       
+        <div class="burbujas">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+
         <div class="d-flex justify-content-center flex-column">
-            <div>
-                <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(217, 174, 86, 1)" offset="0%"></stop><stop stop-color="rgba(227.999, 160.616, 11.665, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,80L15,66.7C30,53,60,27,90,18.3C120,10,150,20,180,30C210,40,240,50,270,60C300,70,330,80,360,75C390,70,420,50,450,48.3C480,47,510,63,540,68.3C570,73,600,67,630,55C660,43,690,27,720,23.3C750,20,780,30,810,40C840,50,870,60,900,66.7C930,73,960,77,990,80C1020,83,1050,87,1080,75C1110,63,1140,37,1170,31.7C1200,27,1230,43,1260,53.3C1290,63,1320,67,1350,58.3C1380,50,1410,30,1440,31.7C1470,33,1500,57,1530,61.7C1560,67,1590,53,1620,41.7C1650,30,1680,20,1710,13.3C1740,7,1770,3,1800,6.7C1830,10,1860,20,1890,33.3C1920,47,1950,63,1980,65C2010,67,2040,53,2070,50C2100,47,2130,53,2145,56.7L2160,60L2160,100L2145,100C2130,100,2100,100,2070,100C2040,100,2010,100,1980,100C1950,100,1920,100,1890,100C1860,100,1830,100,1800,100C1770,100,1740,100,1710,100C1680,100,1650,100,1620,100C1590,100,1560,100,1530,100C1500,100,1470,100,1440,100C1410,100,1380,100,1350,100C1320,100,1290,100,1260,100C1230,100,1200,100,1170,100C1140,100,1110,100,1080,100C1050,100,1020,100,990,100C960,100,930,100,900,100C870,100,840,100,810,100C780,100,750,100,720,100C690,100,660,100,630,100C600,100,570,100,540,100C510,100,480,100,450,100C420,100,390,100,360,100C330,100,300,100,270,100C240,100,210,100,180,100C150,100,120,100,90,100C60,100,30,100,15,100L0,100Z"></path></svg>
-            </div>
             <div class="text-center parrafos-footer pb-2">
                 <p>Busso IT - Todos los derechos reservados 2023 &copy;</p>
                 <p class="firma">Creada por Octavio Arturo Ortiz Diaz</p>
+            </div>
+            <div id="sand">
+                <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(217, 174, 86, 1)" offset="0%"></stop><stop stop-color="rgba(227.999, 160.616, 11.665, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,80L15,66.7C30,53,60,27,90,18.3C120,10,150,20,180,30C210,40,240,50,270,60C300,70,330,80,360,75C390,70,420,50,450,48.3C480,47,510,63,540,68.3C570,73,600,67,630,55C660,43,690,27,720,23.3C750,20,780,30,810,40C840,50,870,60,900,66.7C930,73,960,77,990,80C1020,83,1050,87,1080,75C1110,63,1140,37,1170,31.7C1200,27,1230,43,1260,53.3C1290,63,1320,67,1350,58.3C1380,50,1410,30,1440,31.7C1470,33,1500,57,1530,61.7C1560,67,1590,53,1620,41.7C1650,30,1680,20,1710,13.3C1740,7,1770,3,1800,6.7C1830,10,1860,20,1890,33.3C1920,47,1950,63,1980,65C2010,67,2040,53,2070,50C2100,47,2130,53,2145,56.7L2160,60L2160,100L2145,100C2130,100,2100,100,2070,100C2040,100,2010,100,1980,100C1950,100,1920,100,1890,100C1860,100,1830,100,1800,100C1770,100,1740,100,1710,100C1680,100,1650,100,1620,100C1590,100,1560,100,1530,100C1500,100,1470,100,1440,100C1410,100,1380,100,1350,100C1320,100,1290,100,1260,100C1230,100,1200,100,1170,100C1140,100,1110,100,1080,100C1050,100,1020,100,990,100C960,100,930,100,900,100C870,100,840,100,810,100C780,100,750,100,720,100C690,100,660,100,630,100C600,100,570,100,540,100C510,100,480,100,450,100C420,100,390,100,360,100C330,100,300,100,270,100C240,100,210,100,180,100C150,100,120,100,90,100C60,100,30,100,15,100L0,100Z"></path></svg>
             </div>
         </div>
     </footer>
